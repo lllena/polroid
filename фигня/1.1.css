@@ -1,0 +1,146 @@
+body {
+background-color: #FFFFFF;
+font-family:'Time New Roman';
+height:600px;
+}
+header {
+text-transform:uppercase;
+letter-spacing:2px;
+font-family:Comic Sans MS, sans-serif;
+font-size:50px;
+padding:15px;
+border-bottom:solid;
+border-color:silver;
+background-color:#D1D1D1;
+margin:-8px;
+height:80px;
+}
+
+ #one{
+	height:75px;
+	width:75px;
+	border-style:double;
+	border-radius:15px;
+	
+}
+
+#text {
+	vertical-align:top; 
+}
+
+footer{
+height:50px;
+vertical-align:bottom;
+border-top:solid;
+border-color:silver;
+background-color:#D1D1D1;
+margin:-8px;
+margin-top:15px;
+padding:10px;
+color:#041671;
+text-align:right;
+font-family:Corbel, sans-serif;
+font-weight:bold;
+}
+
+article{
+	height:450px;
+	width:100%;
+	padding:10px;	
+}
+
+#info{
+	text-decoration:underline;
+}
+
+#two{
+	position:relative;
+	top:120px;
+	left:43%;
+	height:200px;
+	width:200px;
+	float:center;
+}
+
+#three{
+    
+	animation-name:flash;
+	animation-duration:1s;
+	animation-timing-function:ease-in;
+	animation-direction:normal;
+	animation-delay:3.5s;
+	position:relative;
+	top:-40px;
+	left:33%;
+	height:0px;
+	width:0px;
+	float:center;
+}
+	
+@keyframes flash{
+	0%{
+	position:relative;
+	top:-40px;
+	left:33%;
+	height:0px;
+	width:0px;
+	}
+
+	50% {
+	position:relative;
+	top:65px;
+	left:26%;
+	height:200px;
+	width:200px;
+	}
+	
+	100%{
+	position:relative;
+	top:-40px;
+	left:33%;
+	height:0px;
+	width:0px;}
+}
+
+#four{
+	font-family:Corbel, sans-serif;
+	font-size:30px;
+	position:relative;
+	top:330px;
+	float:right;
+	filter:opacity(0%);
+	text-align:center;
+	animation-name:hihi;
+	animation-duration:360s;
+	animation-timing-function:linear;
+	animation-direction:normal;
+	animation-delay:4.5s;
+	color:#131543;
+	
+}
+
+@keyframes hihi{
+	0%{
+		filter:opacity(0%);}
+	1%{
+		filter:opacity(100%);
+	}
+	100%{
+		filter:opacity(100%);}
+	
+}
+
+#five{
+	font-family:Corbel, sans-serif;
+	font-size:30px;
+	position:relative;
+	color:#131543;
+	top:-160px;
+	filter:opacity(0%);
+	animation-name:hihi;
+	animation-duration:1s;
+	animation-timing-function:ease-in;
+	animation-direction:normal;
+	animation-delay:3s;
+	
+}
